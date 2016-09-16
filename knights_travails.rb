@@ -12,3 +12,31 @@ class Board
     nil
   end
 end
+
+class KnightPathFinder
+  def self.valid_moves
+    #take potential moves - visited positions
+    #add ^ into visited postiions
+    #potential move permutations (-1=>-2,+2)(+1=>-2,+2)(-2=>-1,+1)(+2=>-1,+1)
+  end
+
+  def initialize(start_pos = [0,0])#, end_pos = [0,0])
+    @start_pos = start_pos
+    # @end_pos = end_pos
+    @visited_pos = [@start_pos]
+  end
+
+  def build_move_tree
+
+  end
+
+  def find_path(end_pos)
+
+  end
+
+  def new_move_pos(pos)
+  end
+
+
+
+end
